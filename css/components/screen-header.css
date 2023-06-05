@@ -29,11 +29,13 @@
   animation: rotateGear 1s linear infinite;
 }
 
-.screen-header__gear {
+.screen-header__icons > span:last-child {
   position: relative;
 }
 
 .screen-header__update {
-  left: 19px;
-  bottom: 9px;
+  /* left: 19px;
+  bottom: 9px; */
+  right: -5px;
+  top: -2px;
 }

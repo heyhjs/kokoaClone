@@ -71,3 +71,12 @@
   font-weight: 600;
   font-size: 12px;
 }
+
+.user-component__friends {
+  margin-bottom: 20px;
+}
+
+.user-component__friends .user-component__avatar {
+  background-position: center;
+  background-size: cover;
+}
