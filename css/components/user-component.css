@@ -52,3 +52,22 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__subtitle > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  border: 2px solid tomato;
+  color: tomato;
+  margin-left: 10px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 12px;
+}

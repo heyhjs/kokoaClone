@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;900&display=swap");
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  width: 350px;
+  height: 765px;
+  border: 5px solid green;
+  padding: 70px 25px;
+}
+
+.status {
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.play__img {
+  width: 130px;
+  height: 135px;
+  border-radius: 10%;
+  background-color: #ffbd11;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
+
+.play__img i {
+  font-size: 50px;
+  color: white;
+}
+
+.play__info {
+  display: flex;
+  flex-direction: column;
+  height: 135px;
+  width: 200px;
+}
+
+.play__info h1 {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.play__info h3 {
+  font-size: 130%;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+.buttons span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border: 2px solid;
+  box-shadow: 0px 4px #18191e;
+}
+
+.buttons span:nth-of-type(1) {
+  width: 170px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.buttons span:nth-of-type(1) i {
+  margin-right: 10px;
+}
+
+.buttons span:nth-of-type(2) {
+  width: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.buttons span:nth-of-type(3) {
+  width: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.list__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list:first-child .list__img {
+  background-color: #f85a2a;
+}
+
+.list:nth-child(2) .list__img {
+  background-color: #ff89bb;
+}
+
+.list:nth-child(3) .list__img {
+  background-color: #1947e5;
+}
+
+.list:last-child .list__img {
+  background-color: #00c6ad;
+}
+
+.list__info h3 {
+  font-size: 23px;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.list__info span {
+  font-size: 18px;
+  opacity: 0.7;
+  font-weight: 400;
+}
